@@ -1,0 +1,9 @@
+# Local OpenClaw/Codex agent files. These are machine-specific and must not be committed.
+/AGENTS.md
+/HEARTBEAT.md
+/IDENTITY.md
+/SOUL.md
+/TOOLS.md
+/USER.md
+/openclaw-workspace-state.json
+/.openclaw/
