@@ -3,16 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
-    <style>
-      h1 {
-        color: red;
-      }
-    </style>
+    <meta name="description" content="Northstar Software builds dependable digital products for growing businesses." />
+    <title>Northstar Software | Better software, thoughtfully built</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Northstar Software home">Northstar<span>Software</span></a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
     <main>
-      <h1>Hello World</h1>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Software that moves business forward</p>
+          <h1>Build what’s next with confidence.</h1>
+          <p class="lead">Northstar Software designs and develops reliable digital products that help ambitious teams work smarter and grow faster.</p>
+          <a class="button" href="contact.html">Start a conversation <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-card" aria-label="Software delivery highlights">
+          <p class="card-label">How we help</p>
+          <div class="metric"><strong>01</strong><span>Product strategy<br />and design</span></div>
+          <div class="metric"><strong>02</strong><span>Web and mobile<br />development</span></div>
+          <div class="metric"><strong>03</strong><span>Long-term product<br />partnership</span></div>
+        </div>
+      </section>
+      <section class="services" aria-labelledby="services-title">
+        <p class="eyebrow">Our approach</p>
+        <h2 id="services-title">Clarity from the first idea to every release.</h2>
+        <div class="service-grid">
+          <article><h3>Focused discovery</h3><p>We find the right problem to solve, then align your team around a practical path forward.</p></article>
+          <article><h3>Crafted engineering</h3><p>We create durable, secure experiences with clean technology and attention to the details.</p></article>
+          <article><h3>Measured progress</h3><p>We launch, learn, and improve continuously so your investment keeps creating value.</p></article>
+        </div>
+      </section>
     </main>
+    <footer><span>© 2026 Northstar Software</span><a href="contact.html">Let’s work together</a></footer>
   </body>
 </html>
